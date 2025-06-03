@@ -1,0 +1,82 @@
+.mogra-regular {
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.parkinsans {
+  font-family: "Parkinsans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body{
+    background-color: pink;
+    font-size: large;
+    font-family: "Parkinsans", sans-serif;
+    margin-left:20pt;
+}
+
+header{
+    text-align: center;
+    color:rgb(153, 9, 98);
+    font-family: "Mogra", system-ui;
+    font-size:larger;
+}
+
+h2{
+    font-weight: 700;
+    margin-top: -20pt;
+    margin-bottom: 30pt;
+    font-size: 25px;
+}
+
+h3{
+    font-style:italic
+}
+
+article{
+    background-color: rgb(182, 91, 122);
+    color:rgb(255, 231, 235);
+    text-align:center;
+    text-shadow: 2px 2px black;
+    box-shadow: 3px 3px 10px black;
+    display: inline-block;
+    width: 600px;
+    height: 500px;
+    transition: 0.3s;
+    margin-right: 15pt;
+    margin-bottom: 15pt;
+}
+
+article:hover{
+    box-shadow:5px 5px 15px 10px rgb(255, 0, 157);
+}
+
+.light{
+    color:rgb(182, 91, 122);
+    background-color: rgb(255, 231, 235);
+    text-shadow: 2px 2px rgb(255, 221, 239);
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+a{
+    color: rgb(250, 63, 203);
+    transition: 0.3s;
+}
+
+a:hover{
+    text-shadow: none;
+    color: black;
+}
+
+footer{
+    text-shadow: 2px 2px 5px white;
+    text-align: center;
+    margin-bottom: 8pt;
+}
