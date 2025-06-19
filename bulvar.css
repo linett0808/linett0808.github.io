@@ -39,8 +39,9 @@ main{
     margin-top:50px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 600px;
+    grid-template-rows: 45% 45%;
     justify-content: space-evenly;
+    align-content: space-between;
 }
 
 article{
@@ -50,7 +51,6 @@ article{
     text-shadow: 2px 2px black;
     box-shadow: 3px 3px 10px black;
     transition: 0.3s;
-    width: 600px;
     height: 500px;
 }
 
