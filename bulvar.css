@@ -15,7 +15,6 @@ body{
     background-color: pink;
     font-size: large;
     font-family: "Parkinsans", sans-serif;
-    margin-left:20pt;
 }
 
 header{
@@ -36,18 +35,21 @@ h3{
     font-style:italic
 }
 
+main{
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 500px;
+    justify-content: space-evenly;
+}
+
 article{
     background-color: rgb(182, 91, 122);
     color:rgb(255, 231, 235);
     text-align:center;
     text-shadow: 2px 2px black;
     box-shadow: 3px 3px 10px black;
-    display: inline-block;
-    width: 600px;
-    height: 500px;
     transition: 0.3s;
-    margin-right: 15pt;
-    margin-bottom: 15pt;
 }
 
 article:hover{
