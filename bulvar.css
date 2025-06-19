@@ -81,8 +81,11 @@ a:hover{
     color: black;
 }
 
+address{
+    justify-content: center;
+}
+
 footer{
     text-shadow: 2px 2px 5px white;
-    justify-content: center;
     margin-bottom: 8pt;
 }
