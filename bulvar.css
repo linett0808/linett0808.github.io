@@ -35,15 +35,12 @@ h3{
     font-style:italic
 }
 
-main{
+article{
     margin-top:50px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    grid-template-rows: 500px;
+    grid-template-rows: 800px;
     justify-content: space-evenly;
-}
-
-article{
     background-color: rgb(182, 91, 122);
     color:rgb(255, 231, 235);
     text-align:center;
