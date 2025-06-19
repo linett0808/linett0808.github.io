@@ -35,12 +35,15 @@ h3{
     font-style:italic
 }
 
-article{
+main{
     margin-top:50px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 800px;
     justify-content: space-evenly;
+}
+
+article{
     background-color: rgb(182, 91, 122);
     color:rgb(255, 231, 235);
     text-align:center;
@@ -76,6 +79,6 @@ a:hover{
 
 footer{
     text-shadow: 2px 2px 5px white;
-    text-align: center;
+    justify-content: center;
     margin-bottom: 8pt;
 }
