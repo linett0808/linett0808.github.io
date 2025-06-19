@@ -32,8 +32,8 @@ h2{
 }
 
 h3{
-    border-top: 20px;
-    font-style:italic
+    font-style: italic;
+    margin-bottom: 5px;
 }
 
 main{
@@ -54,7 +54,8 @@ article{
     height:500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 10px;
     overflow: hidden;
 }
 
