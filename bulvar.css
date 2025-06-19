@@ -83,6 +83,6 @@ a:hover{
 
 footer{
     text-shadow: 2px 2px 5px white;
-    text-align:center;
+    justify-content: center;
     margin-bottom: 8pt;
 }
