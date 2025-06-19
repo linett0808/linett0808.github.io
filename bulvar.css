@@ -52,6 +52,10 @@ article{
     box-shadow: 3px 3px 10px black;
     transition: 0.3s;
     height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
 }
 
 article:hover{
